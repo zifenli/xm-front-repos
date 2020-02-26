@@ -1,5 +1,5 @@
 {
-  "name": "@fgloria/book-detail",
+  "name": "book-detail",
   "version": "0.0.5",
   "main": "./index.js",
   "scripts": {},
@@ -17,5 +17,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "gitHead": "b9e37367baa21a6e0b9f68c84f5201431d0e3263"
 }
