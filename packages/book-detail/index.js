@@ -1,1 +1,1 @@
-console.log('booklDeatil');
+console.log('bookl-deatil');
