@@ -1,5 +1,5 @@
 {
-  "name": "house",
+  "name": "@zifen/house",
   "version": "0.0.2",
   "main": "./index.js",
   "scripts": {},
