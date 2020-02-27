@@ -1,10 +1,10 @@
 {
   "name": "book-detail",
   "version": "0.0.3",
-  "main": "./dist/App.js",
+  "main": "./index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "transpile": "babel src -d dist --copy-files"
+    "transpile": "babel src -d dist --copy-files -w"
   },
   "browserslist": {
     "production": [
@@ -21,8 +21,16 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zifenli/xm-front-repos"
+  },
+  "bugs": {
+    "url": "https://github.com/zifenli/xm-front-repos/issues"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.8.3",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"

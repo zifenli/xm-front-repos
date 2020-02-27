@@ -1,0 +1,80 @@
+.bookDetail {
+  h1 { color: red }
+  .left {
+    padding-right: 40px;
+    border-right: 1px solid #efefef;
+    width: 760px;
+    align-self: stretch;
+    .name {
+      margin-bottom: 12px;
+    }
+    .bookInfo {
+      margin-bottom: 40px;
+      display: flex;
+      .coverWrap {
+        width: 160px;
+        height: 236px;
+        min-width: 142px;
+        margin-right: 34px;
+        overflow: hidden;
+        .cover {
+          width: 100%;
+        }
+      }
+      .textWrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        p {
+          font-size: 14px;
+          color: rgba(0, 0, 0, .85);
+          line-height: 1.8;
+        }
+        .basicInfo {
+          width: 48%;
+        }
+        .scoreInfo {
+          width: 52%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .scores {
+            padding-left: 16px;
+            border-left: 1px solid rgba(239,239,239,1);
+            .ranks {
+              display: flex;
+              align-items: center;
+            }
+          }
+          .btnWrap {
+            padding-left: 16px;
+            margin-top: 30px;
+            .btn {
+              &:first-child{
+                background-color: #26467F;
+                margin-right: 8px;
+                border: 1px solid #26467F;
+              }
+            }
+          }
+        }
+        .tagList {
+          margin-top: 8px;
+          list-style: none;
+          >li {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+    .contentWrap {
+      .content {
+        font-size: 14px;
+        color: rgba(0, 0, 0, .85);
+        line-height: 1.5;
+      }
+    }
+  }
+}
