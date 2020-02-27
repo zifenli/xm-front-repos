@@ -63,7 +63,6 @@ const WebBook = (props) => {
 
 WebBook.propTypes = {
   book: PropTypes.object,
-  actionBtns: PropTypes.object,
 }
 
 export default WebBook;

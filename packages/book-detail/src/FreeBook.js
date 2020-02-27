@@ -4,7 +4,7 @@ import moment from 'moment';
 import style from './style.module.scss';
 
 const FreeBook = (props) => {
-  const { book, tags } = props;
+  const { book, tags, customStyle: { mainColor } } = props;
 
   const getScoreItems = (items) => items.map((item, index) => <span key={item.name}>
     { item.name }得分{Number(item.value).toFixed(1)}分{index === items.length-1 ? '' : '、'}</span>);
@@ -55,7 +55,6 @@ const FreeBook = (props) => {
 
 FreeBook.propTypes = {
   book: PropTypes.object,
-  actionBtns: PropTypes.object,
 }
 
 export default FreeBook;
