@@ -1,1 +1,1 @@
-console.log('bookl-deatil');
+export { default } from './dist/index';

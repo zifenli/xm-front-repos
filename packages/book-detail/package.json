@@ -1,8 +1,11 @@
 {
   "name": "book-detail",
   "version": "0.0.6",
-  "main": "./index.js",
-  "scripts": {},
+  "main": "./dist/App.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "transpile": "babel src -d dist --copy-files"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -18,5 +21,18 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "gitHead": "b9e37367baa21a6e0b9f68c84f5201431d0e3263"
+  "dependencies": {
+    "@babel/preset-react": "^7.8.3",
+    "react": "^16.8.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
 }
