@@ -61,7 +61,7 @@ const bookFormatter = book => {
         name: (sourceTypes.find(item2 => item2.type === item.type) || {}).name
       })).filter(item => item.name),
       onlineLitScores,
-      cprType: book.sourceTypeCode,
+      cprType: book.cprType || book.sourceTypeCode,
     }
   }
 }
